@@ -1,4 +1,4 @@
-    const token = "IGQVJXNWZAZAcDlhN0RlUXphVDkyY1BRMFYxV3NUY0JiMEFMVDhqcEY2MzNaU19EZAkQtYUtSbmlxQ0JTX09sTDVwN2hWS3BKNkltTWlwVXdFRE1BWW5nQUNvRFlKSkE2Uk9GbEJwSUJHLV91bzdnMDNNTwZDZD";
+    const token = "IGQVJVVmQ2ZAlNaUzJYc2hjdVA3dVc3UTVKMXFZANDA4OUhRUm55WmliTFJXcTNkNkU3dGZA5Q2JkQ0tXSVREZA2dMMTAxM0cwVEdsQjBKN1Q2eWctX015VGdDRTJhSFlsZAHh6eUszVnF3Q3BxTDZAaTS1aawZDZD";
     const numPosts = 24;
     fetch(`https://graph.instagram.com/me/media?fields=id,caption,media_type,media_url,thumbnail_url,permalink&access_token=${token}&limit=${numPosts}`)
         .then(response => response.json())
